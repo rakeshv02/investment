@@ -279,6 +279,107 @@ ReactDOM.createRoot(document.getElementById('root')).render(<App />);
 <div>Free, private, browser-based tools. No sign-up, no tracking.</div>
 <div style="margin-top:6px"><a href="https://tabutility.com" style="color:#818cf8;font-weight:600;text-decoration:none">All Tools</a> · <a href="https://tabutility.com/blog/" style="color:#94a3b8;text-decoration:none">Blog</a> · <a href="https://tabutility.com/about/" style="color:#94a3b8;text-decoration:none">About</a> · <a href="https://tabutility.com/privacy-policy/" style="color:#94a3b8;text-decoration:none">Privacy</a> · <a href="https://tabutility.com/contact/" style="color:#94a3b8;text-decoration:none">Contact</a></div>
 <div style="margin-top:6px;color:#64748b">© 2026 Tabutility</div>
-</footer>
+
+  <section id="seo-content" style="background:#1a1a2e;color:#e2e8f0;padding:60px 20px;margin-top:40px;border-top:1px solid #2d3748;">
+    <div style="max-width:860px;margin:0 auto;font-family:system-ui,-apple-system,sans-serif;line-height:1.7;">
+      <h2 style="font-size:2rem;font-weight:700;color:#f1f5f9;margin-bottom:24px;">How to Use the Investment Growth Calculator</h2>
+      <p style="margin-bottom:16px;color:#cbd5e1;">The Investment Growth Calculator projects the future value of any investment, whether a one-off lump sum, regular monthly contributions, or a combination of both. It models compound growth over time and lets you compare different return scenarios to understand the range of possible outcomes.</p>
+      <p style="margin-bottom:16px;color:#cbd5e1;">Enter your initial investment, monthly contribution amount, expected annual return rate, and investment horizon. The calculator shows year-by-year growth, the total you invest vs the interest/returns earned, and compares outcomes at different return rates (conservative, moderate, optimistic).</p>
+      <p style="margin-bottom:16px;color:#cbd5e1;">A key nuance is sequence of returns risk: the order in which returns occur matters, especially near retirement. A 20% loss in year one of retirement is far more damaging than the same loss in year 10, because you're withdrawing funds at depressed prices. For accumulation, volatility is far less harmful than it appears.</p>
+
+      <div style="background:#0f172a;border:1px solid #334155;border-radius:12px;padding:28px;margin:32px 0;">
+        <h3 style="font-size:1.2rem;font-weight:600;color:#f1f5f9;margin-bottom:16px;">📊 Worked Example</h3>
+        <p style="color:#94a3b8;margin:0 0 12px;">£10,000 lump sum + £300/month, 8% annual return, 25 years:</p>
+        <ul style="list-style:none;padding:0;margin:0;color:#cbd5e1;">
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Total invested: <strong style="color:#f1f5f9;">£100,000</strong></li>
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Investment growth: <strong style="color:#34d399;">£194,000</strong></li>
+          <li style="padding:6px 0;border-bottom:1px solid #1e293b;">Final value: <strong style="color:#34d399;">£294,000</strong></li>
+          <li style="padding:6px 0;">At 5% return: <strong style="color:#f1f5f9;">£189,000</strong> (£105k less!)</li>
+        </ul>
+      </div>
+
+      <h3 style="font-size:1.4rem;font-weight:600;color:#f1f5f9;margin:32px 0 16px;">Common Use Cases</h3>
+      <ul style="list-style:none;padding:0;margin:0 0 32px;">
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Projecting how a stocks and shares ISA grows over time</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Comparing lump-sum investing vs regular drip-feeding into the market</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Modelling 401(k) or pension growth at different contribution levels</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Understanding the long-term impact of investment fees on returns</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Comparing conservative (bonds) vs aggressive (equities) asset allocations</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Planning when to reach a specific investment target</li>
+        <li style="padding:8px 0;border-bottom:1px solid #1e293b;color:#cbd5e1;">✅ Stress-testing a portfolio against low-return scenarios</li>
+      </ul>
+
+      <h3 style="font-size:1.4rem;font-weight:600;color:#f1f5f9;margin:32px 0 24px;">Frequently Asked Questions</h3>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What is a realistic investment return to expect?</h4>
+        <p style="color:#cbd5e1;margin:0;">Global equities have historically returned around 8–10% annually in nominal terms, or 5–7% in real (inflation-adjusted) terms. Bonds return less (2–4%). A 60/40 portfolio typically returns 6–8% nominally. Financial planners often use 5–7% real return for conservative projections.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">Is it better to invest a lump sum or spread it over time?</h4>
+        <p style="color:#cbd5e1;margin:0;">Mathematically, lump-sum investing outperforms spreading investments (pound-cost averaging) around two-thirds of the time because markets trend upward. However, drip-feeding reduces the risk of investing everything at a market peak and is psychologically easier. Most financial experts recommend investing regularly regardless of market conditions.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What are the main investment vehicles in the UK?</h4>
+        <p style="color:#cbd5e1;margin:0;">The most tax-efficient vehicles are the Stocks and Shares ISA (£20,000/year allowance, returns tax-free) and the pension (contributions get tax relief at your marginal rate). General investment accounts have no tax shelter but no contribution limits. Junior ISAs exist for children.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">How do investment fees affect long-term growth?</h4>
+        <p style="color:#cbd5e1;margin:0;">Fees compound just like returns, but in reverse. A 1.5% annual fee vs a 0.2% fee on £100,000 over 30 years at 7% gross can cost over £120,000 in foregone returns. Low-cost index funds (tracker funds) typically charge 0.1–0.25% vs 1.5–2% for actively managed funds.</p>
+      </div>
+      <div style="margin-bottom:24px;">
+        <h4 style="font-size:1rem;font-weight:600;color:#f1f5f9;margin-bottom:8px;">What is pound-cost averaging?</h4>
+        <p style="color:#cbd5e1;margin:0;">Pound-cost averaging (PCA) means investing a fixed sum at regular intervals regardless of market price. When prices are low you buy more units; when high you buy fewer. Over time this averages out your purchase price and removes the pressure of trying to time the market.</p>
+      </div>
+    </div>
+  </section>
+  <script type="application/ld+json">
+  {
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is a realistic investment return to expect?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Global equities have historically returned around 8–10% annually in nominal terms, or 5–7% in real (inflation-adjusted) terms. Bonds return less (2–4%). A 60/40 portfolio typically returns 6–8% nominally. Financial planners often use 5–7% real return for conservative projections."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is it better to invest a lump sum or spread it over time?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Mathematically, lump-sum investing outperforms spreading investments (pound-cost averaging) around two-thirds of the time because markets trend upward. However, drip-feeding reduces the risk of investing everything at a market peak and is psychologically easier. Most financial experts recommend investing regularly regardless of market conditions."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What are the main investment vehicles in the UK?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The most tax-efficient vehicles are the Stocks and Shares ISA (£20,000/year allowance, returns tax-free) and the pension (contributions get tax relief at your marginal rate). General investment accounts have no tax shelter but no contribution limits. Junior ISAs exist for children."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do investment fees affect long-term growth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Fees compound just like returns, but in reverse. A 1.5% annual fee vs a 0.2% fee on £100,000 over 30 years at 7% gross can cost over £120,000 in foregone returns. Low-cost index funds (tracker funds) typically charge 0.1–0.25% vs 1.5–2% for actively managed funds."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is pound-cost averaging?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Pound-cost averaging (PCA) means investing a fixed sum at regular intervals regardless of market price. When prices are low you buy more units; when high you buy fewer. Over time this averages out your purchase price and removes the pressure of trying to time the market."
+      }
+    }
+  ]
+}
+  </script>
+  </footer>
 </body>
 </html>
